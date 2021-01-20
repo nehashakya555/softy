@@ -462,7 +462,7 @@ font-family: 'Poppins', sans-serif;
   display: block;
   font-weight: 500;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 13px;
   color: #fff;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -888,8 +888,16 @@ features
   }
 }
 .feature-big-item-bg{
-  background: lightgrey;
+  background: rgb(199,156,242);
+  background: linear-gradient(90deg, rgba(199,156,242,1) 0%, rgba(240,55,189,0.6446953781512605) 100%);
 }
+.feature-big-item-bg p{
+  color: #fff;
+}
+.feature-big-item-bg .left-heading h2{
+  color: #fff;
+}
+
 /* 
 ---------------------------------------------
 parallax & home seperator
@@ -912,7 +920,8 @@ parallax & home seperator
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-image: url(../images/work-process-bg.png);
+  background: rgb(199,156,242);
+  background: linear-gradient(90deg, rgba(199,156,242,1) 0%, rgba(240,55,189,0.6446953781512605) 100%);
   z-index: 2;
   top: -20%;
   left: -20%;
@@ -925,7 +934,6 @@ parallax & home seperator
 
 .mini .mini-content .info {
   text-align: center;
-  color: #fff;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -971,7 +979,7 @@ parallax & home seperator
   background: #fff;
   padding: 20px;
   border-radius: 20px;
-  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 4px 2px 48px 0 rgba(0, 0, 0, 0.08);
   margin-bottom: 30px;
   position: relative;
   -webkit-transition: all 0.3s ease 0s;
@@ -1033,9 +1041,10 @@ parallax & home seperator
   content: '';
   position: absolute;
   width: 140%;
-  height: 140%;
+  height: 110%;
   opacity: .90;
-  background-image: url(../images/fun-facts-bg.png);
+  background: rgb(199,156,242);
+  background: linear-gradient(90deg, rgba(199,156,242,1) 0%, rgba(240,55,189,0.6446953781512605) 100%);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1048,6 +1057,10 @@ parallax & home seperator
   position: relative;
   z-index: 3;
   width: 100%;
+}
+.counter .container{
+  margin-top: -65px;
+  margin-bottom: -25px;
 }
 
 .counter .content .count-item {
@@ -1251,6 +1264,10 @@ team
 pricing
 --------------------------------------------- 
 */
+#pricing-plans{
+ background: rgb(246,246,247);
+background: linear-gradient(0deg, rgba(246,246,247,1) 0%, rgba(255,192,203,0.49343487394957986) 57%);
+}
 .pricing-item {
   background: #FFFFFF;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
@@ -1446,20 +1463,27 @@ contact
 
 #contact-us {
   padding: 160px 0px;
+    background: rgb(199,156,242);
+  background: linear-gradient(90deg, rgba(199,156,242,1) 0%, rgba(240,55,189,0.6446953781512605) 100%);
 }
 
 #contact-us h5 {
   font-weight: 500;
   font-size: 18px;
-  color: #1e1e1e;
+  color: #fff;
   letter-spacing: 0.25px;
   line-height: 26px;
+  font-weight: bold;
 }
+#contact-us h2 {
+  color: #fff;
+}
+
 
 .contact-text {
   font-weight: 400;
   font-size: 14px;
-  color: #6F8BA4;
+  color: #fff;
   letter-spacing: 0.6px;
   line-height: 26px;
 }
@@ -1497,7 +1521,7 @@ footer
 --------------------------------------------- 
 */
 footer {
-  background-image: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);
+background: #696969;
   padding-top: 30px;
 }
 
